@@ -119,10 +119,6 @@ body {
   object-position: center;
 
 }
-.hero-img:nth-child(1) {
-  padding-top: 100px;
-}
-
 .title {
     font-size: var(--fs-title);
     font-weight: bold;
@@ -187,7 +183,6 @@ header {
 
 }
 
-
 @media (min-width: 50em) {
   .section {
     background-color: transparent;
@@ -199,9 +194,7 @@ header {
     object-position: center;
     z-index: -100;
   }
-  .hero-img:nth-child(1) {
-    padding-top: 50px;
-  }
+
   .grid {
     display: grid;
     align-items: center;
