@@ -123,9 +123,9 @@ body {
     font-size: var(--fs-title);
     font-weight: bold;
     color: white;
-    line-height: 1.15;
-    padding-top: 0.55rem;
-    padding-bottom: 0.55rem;
+    line-height: 1.1;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
 
 }
 .subtitle {
