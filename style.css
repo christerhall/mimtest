@@ -123,6 +123,7 @@ body {
     font-size: var(--fs-title);
     font-weight: bold;
     color: white;
+    line-height: 1;
 }
 .subtitle {
     font-size: var(--fs-subtitle);
