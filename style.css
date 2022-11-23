@@ -158,8 +158,11 @@ header {
   -webkit-backdrop-filter: opacity(50%);
   backdrop-filter: opacity(50%);
   z-index: 10;
+  margin: 0 auto;
 }
-
+.nav {
+  margin:auto;
+}
 .logo{
   width: 150px;
   margin: 0 auto;
@@ -200,7 +203,7 @@ header {
   }
 
   .grid {
-    display: grid;
+    display: flex;
     align-items: center;
     min-height: 100vh;
     isolation: isolate;
@@ -225,8 +228,9 @@ header {
 
 
 /* Navigation */
-
-
+  .nav {
+    max-width: 70em;;
+  }
   .logo{
     width: 200px;
     margin-left: 0;
