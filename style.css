@@ -138,15 +138,10 @@ body {
     color: white;
     padding-top: 2rem;
     padding-bottom: 4em;
-    
-
 }
 
 /* Grid & flex */
-.flex {
-  display: flex;
-  flex-direction: column;
-}
+
 
 
 /* Navigation */
@@ -161,6 +156,8 @@ header {
   margin: 0 auto;
 }
 .nav {
+  display: flex;
+  flex-direction: column;
   margin:auto;
 }
 .logo{
@@ -221,14 +218,11 @@ header {
 /* Navigation */
 
 /* Grid & flex */
-  .flex {
-    display: flex;
-    flex-direction: row;
-  }
-
 
 /* Navigation */
   .nav {
+    display: flex;
+    flex-direction: row;
     max-width: 70em;;
   }
   .logo{
