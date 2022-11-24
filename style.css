@@ -157,6 +157,7 @@ body {
 .card-employe {
   color: white;
   text-align: center;
+  text-transform: uppercase;
 }
 .employe_name {
   font-weight: bold;
